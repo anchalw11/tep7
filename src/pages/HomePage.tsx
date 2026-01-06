@@ -1,6 +1,7 @@
 import { useNavigate } from 'react-router-dom';
 import { motion } from 'framer-motion';
 import { TrendingUp, Shield, BarChart3, Brain, ArrowRight } from 'lucide-react';
+import type { ReactNode } from 'react';
 
 export default function HomePage() {
   const navigate = useNavigate();
@@ -76,7 +77,7 @@ export default function HomePage() {
   );
 }
 
-function FeatureCard({ icon, title, description }: { icon: React.ReactNode; title: string; description: string }) {
+function FeatureCard({ icon, title, description }: { icon: ReactNode; title: string; description: string }) {
   return (
     <div className="bg-slate-800/50 backdrop-blur-sm border border-slate-700 rounded-xl p-6 hover:border-blue-500 transition-colors">
       <div className="mb-4">{icon}</div>
