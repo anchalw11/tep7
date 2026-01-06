@@ -1,3 +1,4 @@
+import React from 'react';
 import { motion } from 'framer-motion';
 import { BookOpen, Calendar, TrendingUp, TrendingDown } from 'lucide-react';
 

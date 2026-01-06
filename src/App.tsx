@@ -1,5 +1,5 @@
+import React, { useEffect } from 'react';
 import { Routes, Route } from 'react-router-dom';
-import { useEffect } from 'react';
 import HomePage from './pages/HomePage';
 import Dashboard from './pages/Dashboard';
 import SignalsPage from './pages/SignalsPage';
@@ -8,7 +8,7 @@ import './App.css';
 
 function App() {
   useEffect(() => {
-    console.log('Trader Edge Pro - Application Loaded');
+    console.log('Trader Edge Pro - Application Loaded v2.0 - FIXED');
   }, []);
 
   return (
